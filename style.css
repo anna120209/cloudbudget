@@ -6,7 +6,7 @@
 }
 
 html {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 img {
@@ -62,7 +62,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .container .title {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -81,13 +81,13 @@ main::-webkit-scrollbar-thumb {
 
 .herroWrapper {
   padding-bottom: 187px;
-  background-image: url("./img/bg.jpg");
+  background-image: url('./img/bg.jpg');
   background: linear-gradient(
       90deg,
       rgba(213, 32, 71, 0.8) 0%,
       rgba(238, 61, 27, 0.8) 100%
     ),
-    url("./img/bg.jpg");
+    url('./img/bg.jpg');
   background-size: cover;
 }
 @media (max-width: 430px) {
@@ -118,8 +118,6 @@ main::-webkit-scrollbar-thumb {
   display: none;
 }
 
-
-
 @media (max-width: 430px) {
   .navigation {
     position: absolute;
@@ -138,7 +136,7 @@ main::-webkit-scrollbar-thumb {
     height: 25px;
   }
 
-  .navigation .menu span{
+  .navigation .menu span {
     display: block;
     width: 100%;
     height: 2px;
@@ -146,28 +144,28 @@ main::-webkit-scrollbar-thumb {
     transition: all 200ms;
   }
 
-  .hero header .navigation nav{
+  .hero header .navigation nav {
     display: none;
   }
 
-  .hero header .navigation:hover nav{
+  .hero header .navigation:hover nav {
     display: flex;
     padding: 3px;
     background: var(--color-red);
     align-items: flex-start;
   }
 
-  .hero header .navigation:hover .menu span:first-child{
+  .hero header .navigation:hover .menu span:first-child {
     transform: rotate(45deg);
     transform-origin: left;
   }
 
-  .hero header .navigation:hover .menu span:last-child{
+  .hero header .navigation:hover .menu span:last-child {
     transform: rotate(-45deg);
     transform-origin: left;
   }
 
-  .hero header .navigation:hover .menu span:nth-child(2){
+  .hero header .navigation:hover .menu span:nth-child(2) {
     display: none;
   }
 }
@@ -192,7 +190,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .hero header .logo h1 {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -218,7 +216,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .hero header nav a {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -241,7 +239,7 @@ main::-webkit-scrollbar-thumb {
   background-color: transparent;
   border: none;
   outline: none;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -259,7 +257,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .hero header .loginContainer button {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   margin-left: 10px;
   font-weight: 400;
@@ -291,7 +289,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .hero .main h2 {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -312,7 +310,7 @@ main::-webkit-scrollbar-thumb {
 
 .hero .main p {
   max-width: 480px;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -338,7 +336,7 @@ main::-webkit-scrollbar-thumb {
   padding: 16px;
   border-radius: 6px;
   text-align: center;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -380,7 +378,7 @@ main::-webkit-scrollbar-thumb {
 
 .overiew h3 {
   margin-bottom: 24px;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -397,7 +395,7 @@ main::-webkit-scrollbar-thumb {
 
 .overiew p {
   margin-bottom: 19px;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -428,7 +426,7 @@ main::-webkit-scrollbar-thumb {
   border-radius: 50%;
   background-color: var(--color-red);
   background-image: url(./img/vector-1.png);
-  content: "";
+  content: '';
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
@@ -510,7 +508,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .features .content .title {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -520,7 +518,7 @@ main::-webkit-scrollbar-thumb {
   color: #101010;
 }
 .features .content .subtitle {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -536,7 +534,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .features .content .more {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -582,7 +580,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .technology .technologies .technologyItem .index {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
@@ -607,7 +605,7 @@ main::-webkit-scrollbar-thumb {
 .technologyItem h3 {
   margin-top: 27px;
   margin-bottom: 10px;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -623,7 +621,7 @@ main::-webkit-scrollbar-thumb {
   max-width: 190px;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -673,7 +671,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .money .textInfo h3 {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -685,7 +683,7 @@ main::-webkit-scrollbar-thumb {
 .money .textInfo p {
   margin-top: 24px;
   margin-bottom: 40px;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -773,7 +771,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 .contact p {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -815,7 +813,7 @@ main::-webkit-scrollbar-thumb {
 .contact .form input {
   padding: 20px;
   background: var(--color-white);
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -869,18 +867,8 @@ main::-webkit-scrollbar-thumb {
   width: 25%;
 }
 
-@media (max-width: 430px) {
-  .footer .col {
-    width: 50%;
-  }
-
-  .footer .col:nth-child(-n + 2) {
-    margin-bottom: 20px;
-  }
-}
-
 .footer .col h3 {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -891,7 +879,7 @@ main::-webkit-scrollbar-thumb {
 
 .footer .col p,
 .footer .col li {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -906,7 +894,7 @@ main::-webkit-scrollbar-thumb {
 
 .copyright {
   margin-top: 140px;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -915,6 +903,14 @@ main::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 430px) {
+  .footer .col {
+    width: 50%;
+  }
+
+  .footer .col:nth-child(-n + 2) {
+    margin-bottom: 20px;
+  }
+
   .copyright {
     margin-top: 40px;
   }
