@@ -857,13 +857,6 @@ main::-webkit-scrollbar-thumb {
   display: flex;
 }
 
-<<<<<<< HEAD
-=======
-@media (max-width: 430px) {
-  
-}
-
->>>>>>> 72cb6be2ce114827ec0faf7d68374155fb97b830
 .footer .col {
   width: 25%;
 }
@@ -904,10 +897,6 @@ main::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 430px) {
-  .footer {
-    flex-wrap: wrap;
-  }
-
   .footer .col {
     width: 50%;
   }
