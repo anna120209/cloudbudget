@@ -858,9 +858,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 430px) {
-  .footer {
-    flex-wrap: wrap;
-  }
+  
 }
 
 .footer .col {
@@ -913,5 +911,9 @@ main::-webkit-scrollbar-thumb {
 
   .copyright {
     margin-top: 40px;
+  }
+
+  .footer {
+    flex-wrap: wrap;
   }
 }
